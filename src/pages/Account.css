@@ -1,0 +1,38 @@
+#Acbox{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(226, 225, 225, 0.871);
+    height: 86vh;
+    margin-top: 6.7%;
+}
+#acTitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.inp{
+    line-height: 3vh;
+}
+#details{
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(244, 203, 227, 0.708);
+    width: 80%;
+    box-shadow: 2px 2px 4px grey;
+    margin-left: 10%;
+    padding: 10px;
+}
+#left,#right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    margin-left: 5%;
+    padding: 20px;
+}
+#right{
+    margin-left: 20%;
+}
+#btn{
+    background-color: rgba(127, 8, 56, 0.841);
+}

@@ -1,0 +1,26 @@
+#title{
+    color: rgb(255, 255, 255);
+}
+#navBox{
+    position:fixed;
+    z-index: 3;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(182, 21, 96, 0.881);
+}
+.navIcons{
+   padding: 2% 7% 2% 2%;
+}
+.link{
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(233, 227, 227, 0.866);
+    font-size: 20px;
+    margin: 3%;
+}
+.link:hover{
+    background-color: rgba(138, 160, 235, 0.343);
+    color: white;
+    border-radius: 5px;
+}

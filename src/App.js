@@ -1,23 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState,useEffect} from 'react';
+import Login from './pages/Login'
+// import Home from './pages/Home';
+import Cart from './pages/Cart'
+import Account from './pages/Account'
+import {Routes,Route} from 'react-router-dom'
+import ClimbingBoxLoader from 'react-spinners/ClimbingBoxLoader'
+import './App.css'
+import Home from './pages/Home'
+
+ 
+
+
+
+const override = {
+  display: "block",
+  marginLeft: "45%",
+  marginTop:"15%",
+};
 
 function App() {
+  const [loading,setLoading]=useState(false);
+  const [color,setColor]=useState("rgba(204, 156, 250, 0.547)")
+  useEffect(
+    ()=>{
+      setLoading(true)
+      setTimeout(()=>{
+        setLoading(false)
+      },3000)
+    },[]
+  )
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        loading ?(
+          
+        <ClimbingBoxLoader
+
+          color={color}
+          size={15}
+          cssOverride={override} 
+          loading={loading}
+        />)
+
+        :
+        (
+
+            <Routes>
+              <Route path='/' element={<Home/>}></Route>
+              <Route path='/cart' element={<Cart/>}></Route>
+              <Route path='/account' element={<Account/>}></Route>
+              <Route path='/login' element={<Login></Login>}></Route>
+            </Routes>
+        )
+      }
+
     </div>
   );
 }

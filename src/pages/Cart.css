@@ -1,0 +1,20 @@
+
+.cartContent{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    text-align: center;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#shop{
+    text-decoration: none;
+}
+#sad{
+    width: 70px;
+    background-color: none;
+}
+#nothingText{
+    opacity: 50%;
+}

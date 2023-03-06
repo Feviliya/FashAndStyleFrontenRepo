@@ -1,0 +1,12 @@
+.products{
+    margin-top: 8%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    gap: 20px;
+}
+
+.home{
+    background-color: rgba(209, 156, 252, 0.535);
+}

@@ -1,0 +1,11 @@
+.product:hover{
+    transform: scale(1.05);
+    transition: 10ms ease-out;
+}
+.product{
+    justify-content: space-evenly;
+}
+#cartbtn{
+    margin-left: 80%;
+    top: -20px;
+}
