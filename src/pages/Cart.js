@@ -39,7 +39,7 @@ const Cart=()=>{
                     <source src='https://cdn-icons-mp4.flaticon.com/512/7158/7158893.mp4' type='video/mp4'></source>
                 </video>
                 <br></br><br></br>
-                <Link id='shop' to="/home">
+                <Link id='shop' to="/">
                     <Button id='btn' variant='contained' >Shop now</Button>
                 </Link>
             </div>

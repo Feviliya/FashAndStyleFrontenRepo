@@ -12,7 +12,7 @@ const Navbar=()=>{
             <Link className='link' to="/cart">
                 Cart
             </Link>
-            <Link className='link' to="/account">
+            <Link className='link' to="/clients">
                 Account
             </Link>
             <Link className='link' to="/login">

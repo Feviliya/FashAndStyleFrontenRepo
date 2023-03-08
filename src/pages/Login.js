@@ -36,7 +36,7 @@ const Login=()=>{
         <div id="mainLogin">
             <div id="navForLogin">
                 <h3>Fash And Style</h3>
-                <a href="#" className="help"><p>Need help?</p></a>
+                <a href="#" className="help"><p>Need help? </p></a>
             </div>
             <div className="bgcol">
                 <img width={900} height={550} className="bg" src="https://img.freepik.com/free-photo/flat-lay-summer-composition-with-female-accessories-pink-background-copy-space_169016-13075.jpg"></img>

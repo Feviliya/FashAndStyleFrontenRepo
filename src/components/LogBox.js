@@ -28,7 +28,7 @@ const LogBox=()=>{
                     <a href="#"><img className="icon" width={32} src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png"></img></a>
                     <a href="#"><img className="icon" width={31} src="https://cdn-icons-png.flaticon.com/512/2504/2504914.png"></img></a>
                 </div>
-                <p>New User?<Link to='/signUp'>Sign Up</Link></p>
+                <p >New User? <Link className="new" to='/signUp'>Sign Up</Link></p>
             </form>
 
         </div>

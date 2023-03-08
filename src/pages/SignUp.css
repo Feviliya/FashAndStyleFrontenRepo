@@ -1,10 +1,13 @@
 #Acbox{
-    position: absolute;
     width: 100%;
     background-color: rgba(226, 225, 225, 0.871);
-    height: 86vh;
-    margin-top: 10%;
-    padding-top: 7%;
+    height: 74vh;
+    position: absolute;
+    margin-top: 0px;
+}
+#create{
+    text-decoration: none;
+    color: wheat;
 }
 #acTitle{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -15,13 +18,13 @@
     line-height: 3vh;
 }
 #details{
-    display: flex;
     border-radius: 10px;
     background-color: rgba(244, 203, 227, 0.708);
     width: 80%;
+    position: absolute;
     box-shadow: 2px 2px 4px grey;
     margin-left: 10%;
-    padding: 10px;
+    padding: 0px 10px;
 }
 #left,#right{
     display: flex;

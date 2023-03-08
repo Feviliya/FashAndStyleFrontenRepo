@@ -1,0 +1,26 @@
+.crudBtn{
+    margin: 12% 0% 0% 35%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    line-height: 10vh;
+    width: 27%;
+    border-radius: 10px;
+    background-color: rgba(235, 100, 217, 0.365);
+    padding: 50px 10px ;
+    
+}
+.clientbtn{
+    width: 50%;
+    text-decoration: none;
+}
+#btnc{
+    
+    background-color: rgb(102, 37, 84);
+}
+.lnk{
+    text-decoration: none;
+    color:aliceblue;
+}

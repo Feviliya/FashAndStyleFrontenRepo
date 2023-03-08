@@ -42,3 +42,8 @@ p{
 .icon:hover{
     transform: scale(1.2);
 }
+
+.new{
+    text-decoration:none;
+    color:rgb(173, 71, 71);
+}

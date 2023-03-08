@@ -1,0 +1,25 @@
+#table{
+    position: absolute;
+    margin: 12% 0% 0% 25%;
+    padding: 20px;
+    background-color: rgba(226, 109, 193, 0.44);
+    border-radius: 10px;
+    border-collapse: collapse;
+    box-shadow: 1px 2px 3px grey;
+}
+th,tr,td{
+    font-family:monospace;
+    
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+}
+th{
+    
+    border-bottom: 1px solid black;
+    background-color: rgba(127, 255, 212, 0.52);
+}
+#client{
+    background-color:rgba(54, 143, 49, 0.662) ;
+    width: 100%;
+}
